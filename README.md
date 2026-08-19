@@ -4,7 +4,7 @@
 
 ## 프로젝트 소개
 
-"오늘의 할 일"은 브라우저 `localStorage`에 데이터를 저장하는 간단한 할 일 관리 앱입니다.
+"오늘 할 일, 시작해볼까요?"는 브라우저 `localStorage`에 데이터를 저장하는 간단한 할 일 관리 앱입니다.
 
 - 할 일 추가 · 수정 · 삭제 · 완료 토글
 - 우선순위(높음/보통/낮음), 카테고리(업무/개인/쇼핑), 마감일 지정
@@ -22,7 +22,7 @@
 - Next.js 16 (App Router, Turbopack)
 - React 19
 - Tailwind CSS v4
-- shadcn/ui (radix-maia 스타일, taupe 베이스)
+- shadcn/ui (radix-mira 스타일, taupe 베이스)
 - TypeScript / ESLint / Prettier
 - 패키지 매니저: bun 1.3.6
 
@@ -44,6 +44,8 @@ bun run start      # 빌드 결과 실행
 bun run lint       # ESLint
 bun run typecheck  # tsc --noEmit
 bun run format     # Prettier 포맷팅
+bun run test       # Vitest 실행
+bun run test:watch # Vitest watch 모드
 ```
 
 ## 챕터별 시작 브랜치
